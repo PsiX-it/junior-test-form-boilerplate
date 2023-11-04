@@ -20,7 +20,7 @@ export const ImageListWrapper = styled.ul`
       height: 200px;
       object-fit: cover;
       border-radius: 5px;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
     }
 
     .header-item {

@@ -33,6 +33,13 @@ export const ImageList = ({ imageList, onDeleteImage }) => {
                 alt={imageData.alt_description}
               />
             )}
+
+            {imageData.addedFromForm && imageData.description && (
+              <p className="photo-description">
+                <b>Описание: </b>
+                {imageData.description}
+              </p>
+            )}
           </div>
         </li>
       ))}

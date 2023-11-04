@@ -21,6 +21,21 @@ export const Input = styled.input`
   }
 `;
 
+export const TextArea = styled.textarea`
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  width: 100%;
+  outline: none;
+  resize: vertical;
+
+  &.hasError {
+    border: 1px solid red;
+    color: red;
+  }
+`;
+
 export const SubmitButtonContainer = styled.div`
   display: flex;
   justify-content: flex-end;
@@ -48,6 +63,7 @@ export const Field = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-bottom: 10px;
 `;
 
 export const Label = styled.label`
